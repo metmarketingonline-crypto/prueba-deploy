@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/melisgrz/public_html/proyectos/prueba-deploy/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp -R index.html $DEPLOYPATH
